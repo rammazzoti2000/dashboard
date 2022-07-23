@@ -1,0 +1,51 @@
+[
+  {
+    "userId": "0",
+    "name": "Charvie Sharma",
+    "email": "charviesharma@gmail.com",
+    "steps": "2547",
+    "target": "4000",
+    "perfDate": "15 Oct",
+    "scheduledDate": "22 Oct",
+    "calIntake": "2547",
+    "calTarget": "2.5k",
+    "proteinConsumed": "849",
+    "proteinTarget": "2000",
+    "carbConsumed": "849",
+    "carbTarget": "2000",
+    "fatConsumed": "849",
+    "fatTarget": "1000"
+  }, {
+    "userId": "1",
+    "name": "Charvie Sharma",
+    "email": "charviesharma@gmail.com",
+    "steps": "2547",
+    "target": "4000",
+    "perfDate": "15 Oct",
+    "scheduledDate": "22 Oct",
+    "calIntake": "2547",
+    "calTarget": "2.5k",
+    "proteinConsumed": "1000",
+    "proteinTarget": "2000",
+    "carbConsumed": "1000",
+    "carbTarget": "2000",
+    "fatConsumed": "1000",
+    "fatTarget": "1000"
+  }, {
+    "userId": "2",
+    "name": "Charvie Sharma",
+    "email": "charviesharma@gmail.com",
+    "steps": "2547",
+    "target": "4000",
+    "perfDate": "15 Oct",
+    "scheduledDate": "22 Oct",
+    "calIntake": "2547",
+    "calTarget": "2.5k",
+    "proteinConsumed": "1000",
+    "proteinTarget": "2000",
+    "carbConsumed": "1000",
+    "carbTarget": "2000",
+    "fatConsumed": "1000",
+    "fatTarget": "1000"
+  }
+]

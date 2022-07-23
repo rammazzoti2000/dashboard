@@ -1,0 +1,118 @@
+.user {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #1E262F;
+  border-radius: 10px;
+  height: 80px;
+  width: 100%;
+  max-width: 1200px;
+  color: #fff;
+  margin: 20px auto;
+  padding: 10px 15px;
+
+  &__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+  }
+
+  span {
+    color: #BDBCBE;
+    font-weight: 400;
+  }
+
+  .circular-bar {
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    width: 160px;
+    height: 80px;
+  
+    &__inner {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+    }
+  
+    .circ-label {
+      position: absolute;
+      top: 12px;
+      left: 18px;
+      text-align: center;
+    }
+  
+    > p {
+      position: absolute;
+      left: 90px;
+      top: 12px;
+      text-align: center;
+    }
+  }
+
+  .piechart-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .piechart {
+      font-size: 14px;
+      position: relative;
+      width: 160px;
+      height: 80px;
+      font-weight: 600;
+
+      > span {
+        font-weight: 400;
+      }
+
+      &__component {
+        width: 80px;
+        height: 80px;
+      }
+    
+      &__label {
+        position: absolute;
+        bottom: 12px;
+        left: 15px;
+        top: auto;
+        right: auto;
+        text-align: center;
+      }
+
+      > p {
+        position: absolute;
+        left: 90px;
+        bottom: 12px;
+      }
+    }
+
+    &__more {
+      cursor: pointer;
+    }
+  }
+
+  &__bell {
+    padding: 12px 16px;
+    background: #36F5C7;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  &__workout {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    &--container {
+      > p {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+  }
+}
